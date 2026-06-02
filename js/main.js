@@ -66,7 +66,7 @@ function renderProductCards(products) {
   productGrid.innerHTML = products.map((product) => `
     <article class="product-card">
       <div class="product-art" style="--tone: ${product.tone}">
-        <div class="mini-bottle">${product.subtitle}</div>
+        <div class="mini-bottle"></div>
       </div>
       <div class="product-body">
         <h3>${product.name} <span>${product.subtitle}</span></h3>
